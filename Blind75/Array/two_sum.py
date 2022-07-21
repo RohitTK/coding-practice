@@ -31,6 +31,7 @@ class Solution:
         # Logic: x + y = tgt, then y = tgt - x.
         # While iterating through the given list, you insert y in the hashmap along with its index
         # When iterating, if you find x in the hashmap, you return current index and the index of found element
+        # Runtime complexity: O(n)
         for i in range(len(nums)):
             if nums[i] in hashmap:
                 return [hashmap[nums[i]], i]

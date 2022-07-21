@@ -22,6 +22,7 @@ Output: true
 class Solution:
 
     # Logic: Using brute force
+    # Runtime complexity: O(n*n)
     def containsDuplicate1(self, nums: List[int]) -> bool:
         for i in range(len(nums)):
             for j in range(i+1, len(nums)):
@@ -31,6 +32,7 @@ class Solution:
         return False
 
     # Logic: Using sort
+    # Runtime complexity: O(nlogn)
     def containsDuplicate2(self, nums: List[int]) -> bool:
         nums.sort()
         for i in range(len(nums) - 1):
@@ -40,6 +42,7 @@ class Solution:
         return False
 
     # Logic: Using a hashmap
+    # Runtime complexity: O(n)
     def containsDuplicate3(self, nums: List[int]) -> bool:
         hash = {}
         for i in nums:

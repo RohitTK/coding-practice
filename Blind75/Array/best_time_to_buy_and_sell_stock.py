@@ -25,6 +25,7 @@ Explanation: In this case, no transactions are done and the max profit = 0.
 class Solution:
     # Logic: Imagine a graph where y-axis is the price and x is the day
     # Finding the maximum possible difference between two points is the base of this logic
+    # Runtime Complexity: O(n)
     def maxProfit(self, prices: List[int]) -> int:
         l = 0
         r = 1

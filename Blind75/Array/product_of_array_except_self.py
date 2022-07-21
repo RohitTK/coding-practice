@@ -25,7 +25,7 @@ class Solution:
     # In first iteration, store the product of the left side values of the array
     # In second iteration, instead of doing the same, to reduce storage complexity,
     # store the product of the right part values in a variable and multiply it with the values that was created by left
-    # Run time complexity: O(n)
+    # Runtime complexity: O(n)
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         res = [1] * len(nums)
 
