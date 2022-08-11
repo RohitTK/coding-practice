@@ -1,0 +1,7 @@
+Server1, Windows
+Server2, Windows
+Server3, Linux
+Server4, ChromeOS
+Server5, Linux
+Server6, MacOS
+Server7, MacOS
